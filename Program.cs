@@ -13,7 +13,7 @@ namespace Pasta_Visual
             frase = Console.ReadLine();
             Console.Write("\n");
 
-            Console.WriteLine($"{frase.Replace("r", "l").Replace("R", "L")}");
+            Console.WriteLine($"{frase.Replace("r","l").Replace("rr","l").Replace("rR","l").Replace("R","L").Replace("RR","L").Replace("Rr","L")}");
             //<---Fim(Digite)--->//
 
             //<---Inicio(Sair)--->//
